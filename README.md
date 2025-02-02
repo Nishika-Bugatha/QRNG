@@ -1,7 +1,6 @@
 # QRNG
 Quantum random number generator 
 This project implements a Quantum Random Number Generator (QRNG) using Qiskit and IBM’s QASM Simulator. The randomness is derived from quantum superposition, ensuring a truly unpredictable sequence of numbers.
-
 How It Works
 	1.	A quantum circuit is created with a given number of qubits.
 	2.	Hadamard gates are applied to each qubit, putting them into a superposition state.
